@@ -160,6 +160,87 @@
       }
 
       /* Responsive layout */
+
+      @media (max-width: 768px) {
+        * {
+          margin: 2rem 1rem;
+        }
+        form {
+          width: 44rem;
+          height: 40rem;
+          border-radius: 20px;
+        }
+        h1,
+        h4 {
+          margin-left: 2rem;
+        }
+        .detail {
+          margin: 2rem;
+        }
+        .fullname,
+        .number,
+        .email,
+        .subject,
+        .message {
+          height: 3rem;
+          width: 19rem;
+        }
+        .email,
+        .subject {
+          position: relative;
+          left: 21rem;
+          bottom: 8.9rem;
+        }
+        .fullname input,
+        .number input,
+        .email input,
+        .subject input,
+        .message input,
+        textarea {
+          flex: 1;
+          margin-left: 0.1rem;
+          margin-right: 0.5rem;
+          padding: 0;
+          height: 2rem;
+          width: auto;
+          outline: none;
+          border: none;
+          background-color: transparent;
+          font-size: 0.1rem;
+          color: white;
+        }
+        textarea {
+          height: 5.5rem;
+        }
+        .material-icons {
+          font-size: 1.5rem;
+        }
+        .message {
+          height: 8rem;
+          width: 40rem;
+          position: relative;
+          bottom: 9rem;
+        }
+        button {
+          width: 40rem;
+          position: relative;
+          bottom: 9.5rem;
+          right: 1rem;
+          font-size: 1.5rem;
+        }
+        hr {
+          position: relative;
+          right: 2rem;
+          bottom: 10rem;
+          width: 44rem;
+        }
+        .footer {
+          font-size: 1rem;
+          position: relative;
+          bottom: 10rem;
+          right: 2rem;
+        }
+      }
       @media (max-width: 420px) {
         * {
           box-sizing: border-box;
@@ -244,86 +325,6 @@
           position: relative;
           bottom: -2.5rem;
           right: 1rem;
-        }
-      }
-      @media (max-width: 768px) {
-        * {
-          margin: 2rem 1rem;
-        }
-        form {
-          width: 44rem;
-          height: 40rem;
-          border-radius: 20px;
-        }
-        h1,
-        h4 {
-          margin-left: 2rem;
-        }
-        .detail {
-          margin: 2rem;
-        }
-        .fullname,
-        .number,
-        .email,
-        .subject,
-        .message {
-          height: 3rem;
-          width: 19rem;
-        }
-        .email,
-        .subject {
-          position: relative;
-          left: 21rem;
-          bottom: 8.9rem;
-        }
-        .fullname input,
-        .number input,
-        .email input,
-        .subject input,
-        .message input,
-        textarea {
-          flex: 1;
-          margin-left: 0.1rem;
-          margin-right: 0.5rem;
-          padding: 0;
-          height: 2rem;
-          width: auto;
-          outline: none;
-          border: none;
-          background-color: transparent;
-          font-size: 0.1rem;
-          color: white;
-        }
-        textarea {
-          height: 5.5rem;
-        }
-        .material-icons {
-          font-size: 1.5rem;
-        }
-        .message {
-          height: 8rem;
-          width: 40rem;
-          position: relative;
-          bottom: 9rem;
-        }
-        button {
-          width: 40rem;
-          position: relative;
-          bottom: 9.5rem;
-          right: 1rem;
-          font-size: 1.5rem;
-        }
-        hr {
-          position: relative;
-          right: 2rem;
-          bottom: 10rem;
-          width: 44rem;
-        }
-        .footer {
-          font-size: 1rem;
-          position: relative;
-          bottom: 10rem;
-          right: 2rem;
         }
       }
       @media (max-width: 375px) {
